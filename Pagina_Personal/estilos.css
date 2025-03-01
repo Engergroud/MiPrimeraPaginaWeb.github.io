@@ -175,7 +175,7 @@ body {
 
 @font-face {
   font-family: "Roboto";
-  src: url(/font/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf) format("truetype");
+  src: url(/font/RobotoCondensed-VariableFont_wght.ttf) format("truetype");
   }
 
 .Ima_Presentacion{
@@ -234,7 +234,7 @@ body {
 
 @font-face {
   font-family: "Radley";
-  src: url(/font/Radley/Radley-Regular.ttf) format("truetype");
+  src: url(/font/Radley-Regular.ttf) format("truetype");
   }
 
   /* Seccion de Catalogo*/
@@ -304,7 +304,7 @@ body {
   }
   @font-face {
     font-family: "Sacramento";
-    src: url(/font/Sacramento/Sacramento-Regular.ttf) format("truetype");
+    src: url(/font/Sacramento-Regular.ttf) format("truetype");
     }  
 
   /* Tarjetas de Regalo*/
