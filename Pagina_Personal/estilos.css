@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-   background-image: url('/image/Ima.png');
+   background-image: url('image/Ima.png');
    background-size: cover;
    background-position: center;
     background-repeat: no-repeat;
