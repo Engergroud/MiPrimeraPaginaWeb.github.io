@@ -175,7 +175,7 @@ body {
 
 @font-face {
   font-family: "Roboto";
-  src: url(/font/RobotoCondensed-VariableFont_wght.ttf) format("truetype");
+  src: url(/font/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf) format("truetype");
   }
 
 .Ima_Presentacion{
@@ -200,6 +200,14 @@ body {
   margin-left: 20px;
   margin-top: 100px;
 }
+.G_Invita p{color: black;font-family: Radley; font-size: 27px;}
+.G_Invita h3{
+  color: black;
+  font-family: Radley; 
+  font-size: 50px; 
+  width: 100%;
+  padding-top: 90px;
+}
 .I_Invita{
   width: 100%;
   height: 700px;
@@ -215,15 +223,6 @@ body {
   position: center;
 }
 
-.G_Invita p{color: black;font-family: Radley; font-size: 27px;}
-.G_Invita h3{
-  color: black;
-  font-family: Radley; 
-  font-size: 50px; 
-  width: 100%;
-  padding-top: 90px;
-}
-
 
 .Icono_Redes {
   margin-top: 25px;
@@ -234,7 +233,7 @@ body {
 
 @font-face {
   font-family: "Radley";
-  src: url(/font/Radley-Regular.ttf) format("truetype");
+  src: url(/font/Radley/Radley-Regular.ttf) format("truetype");
   }
 
   /* Seccion de Catalogo*/
@@ -304,20 +303,222 @@ body {
   }
   @font-face {
     font-family: "Sacramento";
-    src: url(/font/Sacramento-Regular.ttf) format("truetype");
+    src: url(/font/Sacramento/Sacramento-Regular.ttf) format("truetype");
     }  
 
   /* Tarjetas de Regalo*/
+  #T_Regalos{
+    margin-left: 300px;
+    width: 1400px;
+  }
+  .G_Regalo{
+  width: 800px;
+  height: 100%;
+  text-align: center;
+
+  color: rgba(92, 88, 88, 0.766);
+}
+.G_Regalo p{
+  color: black;
+  font-family: Sacramento; 
+  font-size: 27px;
+  margin-top: 50px;
+}
+.G_Regalo h3{
+  color: black;
+  font-family: Sacramento; 
+  font-size: 25px; 
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  border: solid 1px;
+  margin-left: 220px;
+}
+.G_Regalo h4{
+  font-family: Roboto; 
+}
+#ima_Regalo{
+  width: 325px;
+  height: 455px;
+  margin-top: 30px;
+  transform: rotate(15deg);
+}
   .Formulario_Regalo{
-    width: 70%;
-    height: 95%;
-    margin-left: 90px;
-    background-color: aqua;
+    width: 60%;
+    height: 100%;
   }
   #Formulario{
     border: solid 1px;
+    border-collapse: collapse;
     border-style: dotted;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 580px;
+    height: 750px;
+    border:solid 1px;
   }
+  .Encabezado{
+    width: 100%;
+    height: 55px;
+    background-color: #151413;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+  }
+  .Cuerpo{
+    width: 99%;
+    height: 55px;
+    font-size: 20px;
+  }
+
+  /* Inicio de Sesion*/
+  #Inicio_Sesion{
+    height: 810px;
+    width: 100%;
+    margin-top: 0;
+
+    display: flex;
+  }
+  .I_G{
+    height: 93%;
+    width: 633px;
+  }
+  #Iniciar{
+    padding-top: 20px;
+  }
+  #Iniciar h3{
+    font-size: 35px;
+    font-family: Radley;
+    width: 250px;
+    margin-left: 200px;
+    color: #5d5d5d;
+  }
+  #Iniciar p{
+    font-size: 25px;
+    font-family: Seasons;
+    width: 600px;
+    margin-left: 15px;
+    text-align: center;
+    color: #5d5d5d;
+  }
+  @font-face {
+    font-family: "Seasons";
+    src: url(/font/Demo_Fonts/Fontspring-DEMO-theseasons-bd.otf) format("truetype");
+    }  
+  .Sesion{
+    width: 550px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border:solid 3px;
+    border-color: #8e8b8b;
+  }
+  .Check{
+    width: 23px;
+    height: 23px;
+    margin-left: 30px;
+    margin-top: 10px;
+    align-items: center;
+  }
+  #L_check{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #Boton{
+    width: 200px;
+    height: 50px;
+    margin-left: 220px;
+    margin-top: 277px;
+    background-color: #151413;
+    color: white;
+    border-radius: 10px;
+  }
+  #Recuperar{
+    margin-left: 170px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(194, 92, 92);
+  }
+  /*Crear Usuario*/
+  #Crear{
+    padding-top: 20px;
+  }
+  #Crear h3{
+    font-size: 35px;
+    font-family: Radley;
+    width: 250px;
+    margin-left: 200px;
+    color: #5d5d5d;
+  }
+  #Crear p{
+    font-size: 25px;
+    font-family: Seasons;
+    width: 600px;
+    margin-left: 15px;
+    text-align: center;
+    color: #5d5d5d;
+  }
+  .crea{
+    width: 550px;
+    height: 70px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border:solid 3px;
+    border-color: #8e8b8b;
+  }
+  #R_Boton{
+    width: 200px;
+    height: 50px;
+    margin-left: 220px;
+    margin-top: 5px;
+    background-color: #151413;
+    color: white;
+    border-radius: 10px;
+  }
+  #Invitado{
+    padding-top: 20px;
+    border-left: solid 3px;
+  }
+  #Invitado h3{
+    font-size: 35px;
+    font-family: Radley;
+    width: 275px;
+    margin-left: 200px;
+    color: #5d5d5d;
+    text-align: center;
+  }
+  #Invitado p{
+    font-size: 23px;
+    font-family: Montserat;
+    width: 600px;
+    height: 175px;
+    margin-left: 15px;
+    margin-top: 150px;
+    text-align:center;
+    color: #5d5d5d;
+    line-height: 45px;
+  }
+  #I_Boton{
+    width: 200px;
+    height: 50px;
+    margin-left: 220px;
+    margin-top: 260px;
+    background-color: #151413;
+    color: white;
+    border-radius: 10px;
+  }
+
+  @font-face {
+    font-family: "Montserat";
+    src: url(/font/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
+    }  
   /* Pie de página */
   footer {
     background-color: #c38080;
